@@ -27,8 +27,8 @@ object CurioDB extends Build {
       MergeStrategy.concat(tempDir, path, files.reverse)
   }
 
-  lazy val indexedTreeMap = RootProject(uri("git://github.com/stephenmcd/indexed-tree-map.git"))
-  lazy val hyperLogLog    = RootProject(uri("git://github.com/stephenmcd/java-hll.git#with-fastutils"))
+  lazy val indexedTreeMap = RootProject(uri("git://github.com/PhilAndrew/indexed-tree-map.git"))
+  lazy val hyperLogLog    = RootProject(uri("git://github.com/PhilAndrew/java-hll.git#with-fastutils"))
 
   lazy val root = Project("root", file("."), settings = Seq(
     name := "curiodb",
