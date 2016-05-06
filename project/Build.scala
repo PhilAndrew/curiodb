@@ -6,8 +6,8 @@ import spray.revolver.RevolverPlugin._
 
 object CurioDB extends Build {
 
-  val scalaV   = "2.11.7"
-  val akkaV    = "2.4-SNAPSHOT"
+  val scalaV   = "2.11.8"
+  val akkaV    = "2.4.4"
   val sprayV   = "1.3.3"
   val curiodbV = "0.0.1"
 
